@@ -34,7 +34,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate-assets": "npx pwa-asset-generator icon.png ./icons -m ./manifest.json --favicon true --index index.html --type png --quality 100"
+    "generate-assets": "cd public && npx pwa-asset-generator icon.png ./icons -m ./manifest.json --favicon true --index index.html --type png --quality 100"
   },
   "eslintConfig": {
     "extends": [
