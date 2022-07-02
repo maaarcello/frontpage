@@ -10,8 +10,6 @@ const ResponsiveReactGridLayout = WidthProvider(Responsive);
 
 const layouts = {};
 
-const onLayoutChange = () => {};
-
 const App = () => {
   return (
     <ResponsiveReactGridLayout
@@ -19,7 +17,6 @@ const App = () => {
       cols={{ lg: 12, md: 10, sm: 6, xs: 4, xxs: 2 }}
       rowHeight={30}
       layouts={layouts}
-      // onLayoutChange={(layout, layouts) => onLayoutChange(layout, layouts)}
     >
       <div key="1" data-grid={{ w: 2, h: 3, x: 0, y: 0, minW: 2, minH: 3 }}>
         <span className="text">1</span>
